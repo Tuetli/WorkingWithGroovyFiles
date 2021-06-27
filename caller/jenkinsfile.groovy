@@ -20,3 +20,4 @@ def repoclone(){ //defines a function to clone the repositories to the Jenkins' 
 doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory'], [$class:
 'MessageExclusion', excludeMessage: '(?s).*JENKINS_IGNORE.*']], submoduleCfg: [], userRemoteConfigs:
 [[url:"https://github.com/Tuetli/WorkingWithGroovyFiles.git"]]])
+}
